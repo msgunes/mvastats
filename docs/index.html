@@ -1,180 +1,127 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="en">
 <head>
-
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>IST4111 Lecture notes Fall 2024-2025</title>
-  <meta name="description" content="This book contains lecture notes for IST4130 Web Programming course" />
-  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
-
-  <meta property="og:title" content="IST4111 Lecture notes Fall 2024-2025" />
-  <meta property="og:type" content="book" />
-  
-  <meta property="og:description" content="This book contains lecture notes for IST4130 Web Programming course" />
-  
-
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="IST4111 Lecture notes Fall 2024-2025" />
-  
-  <meta name="twitter:description" content="This book contains lecture notes for IST4130 Web Programming course" />
-  
-
-<meta name="author" content="MSG" />
-
-
-<meta name="date" content="2024-08-22" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  
-  
-
-
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
-
-
-
-
-
-
-
-<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
-<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-
-
-
-<style type="text/css">
-  
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-</style>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Preface | IST4111 Lecture notes Fall 2024-2025</title>
+<meta name="author" content="MSG">
+<meta name="description" content="This book contains lecture notes for IST4130 Web Programming course">
+<meta name="generator" content="bookdown 0.40 with bs4_book()">
+<meta property="og:title" content="Preface | IST4111 Lecture notes Fall 2024-2025">
+<meta property="og:type" content="book">
+<meta property="og:description" content="This book contains lecture notes for IST4130 Web Programming course">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Preface | IST4111 Lecture notes Fall 2024-2025">
+<meta name="twitter:description" content="This book contains lecture notes for IST4130 Web Programming course">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.1/transition.js"></script><script src="libs/bs3compat-0.5.1/tabs.js"></script><script src="libs/bs3compat-0.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script>
+    	$(document).ready(function () {
+    		process_solutions();
+    	});
+        function process_solutions() {
+    		$("div.section[id^='solution']").each(function(i) {
+    		var soln_wrapper_id = "cvxr_ex_" + i;
+    		var solution_id = $(this).attr('id');
+    		var button = $("<button onclick=\"toggle_solution('" + soln_wrapper_id + "')\">Show/Hide</button>");
+    	    var new_div = $("<div id='" + soln_wrapper_id + "' class='solution' style='display: none;'></div>");
+    		var h = $(this).first();
+    	    var others = $(this).children().slice(1);
+    	    $(others).each(function() {
+    	        $(this).appendTo($(new_div));
+    	    });
+    	    $(button).insertAfter($(h));
+    	    $(new_div).insertAfter($(button));
+            })
+        }
+        function toggle_solution(el_id) {
+          $("#" + el_id).toggle();
+        }
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="mycss.css">
 </head>
+<body data-spy="scroll" data-target="#toc">
 
-<body>
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 
-
-
-  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
-
-    <div class="book-summary">
-      <nav role="navigation">
-
-<ul class="summary">
-<li class="chapter" data-level="" data-path=""><a href="#preface"><i class="fa fa-check"></i>Preface</a>
-<ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="#about-the-author"><i class="fa fa-check"></i><b>0.1</b> About the Author</a></li>
-</ul></li>
-</ul>
-
-      </nav>
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">IST4111 Lecture notes Fall 2024-2025</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
 
-    <div class="book-body">
-      <div class="body-inner">
-        <div class="book-header" role="navigation">
-          <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">IST4111 Lecture notes Fall 2024-2025</a>
-          </h1>
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled"><li><a class="active" href="index.html">Preface</a></li></ul>
+
+        <div class="book-extra">
+          
         </div>
-
-        <div class="page-wrapper" tabindex="-1" role="main">
-          <div class="page-inner">
-
-            <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">IST4111 Lecture notes Fall 2024-2025</h1>
-<p class="author"><em>MSG</em></p>
-<p class="date"><em>2024-08-22</em></p>
+      </nav>
 </div>
-<div id="preface" class="section level1 unnumbered hasAnchor">
-<h1>Preface<a href="#preface" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="preface" class="section level1 unnumbered">
+<h1>Preface<a class="anchor" aria-label="anchor" href="#preface"><i class="fas fa-link"></i></a>
+</h1>
 <ul>
 <li>This book is created for accompanying lecture notes for the undergraduate course <code>IST4130 - Web Programming</code>.</li>
 <li>The motivation behind this book is to provide a comprehensive and easy to understand lecture notes in a tidy way.</li>
 </ul>
-<div id="about-the-author" class="section level2 hasAnchor" number="0.1">
-<h2><span class="header-section-number">0.1</span> About the Author<a href="#about-the-author" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="about-the-author" class="section level2" number="0.1">
+<h2>
+<span class="header-section-number">0.1</span> About the Author<a class="anchor" aria-label="anchor" href="#about-the-author"><i class="fas fa-link"></i></a>
+</h2>
 <ul>
 <li>I am Erhan Cene, working as an associate professor at the Yildiz Technical University, Istanbul, Turkey in the department of statistics (<a href="https://avesis.yildiz.edu.tr/ecene" title="personal webpage">see university webpage</a>).</li>
 <li>My broad research interest is on data science and statistical programming especially (<strong>but not limited to</strong>) in sports analytics and biostatistics (<a href="https://avesis.yildiz.edu.tr/ecene/yayinlar" title="publication list">see publication list</a>).</li>
 <li>I mostly give programming courses such as <code>Introduction to Python</code>, <code>Statistical Programming with R</code>, <code>Database</code> and <code>Web Programming</code> along with the <code>Sampling 1</code> course at the undergraduate level and <code>Data Manipulation and Visualisation</code> course at the graduate level.</li>
 <li>You can contact with me through <a href="https://www.linkedin.com/in/erhan-%C3%A7ene-03488960/">linkedin</a>!!!</li>
 </ul>
-
 </div>
 </div>
-            </section>
+  <div class="chapter-nav">
+<div class="empty"></div>
+<div class="empty"></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#preface">Preface</a></li>
+<li><a class="nav-link" href="#about-the-author"><span class="header-section-number">0.1</span> About the Author</a></li>
+</ul>
 
-          </div>
-        </div>
-      </div>
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
 
+</div>
+</div> <!-- .container -->
 
-    </div>
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>IST4111 Lecture notes Fall 2024-2025</strong>" was written by MSG. It was last built on 2024-08-22.</p>
   </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
-<script>
-gitbook.require(["gitbook"], function(gitbook) {
-gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
-});
-});
-</script>
 
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
 </body>
-
 </html>
