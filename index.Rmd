@@ -1,0 +1,31 @@
+--- 
+title: 'IST4111 Lecture notes Fall 2024-2025'
+author: "MSG"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+colorlinks: yes
+graphics: yes
+link-citations: yes
+# github-repo: rstudio/bookdown-demo
+description: "This book contains lecture notes for IST4130 Web Programming course"
+---
+
+
+# Preface {-}
+
+* This book is created for accompanying lecture notes for the undergraduate course `IST4130 - Web Programming`.
+* The motivation behind this book is to provide a comprehensive and easy to understand lecture notes in a tidy way.
+
+## About the Author
+
+* I am Erhan Cene, working as an associate professor at the Yildiz Technical University, Istanbul, Turkey in the department of statistics ([see university webpage](https://avesis.yildiz.edu.tr/ecene "personal webpage")).
+* My broad research interest is on data science and statistical programming especially (**but not limited to**) in sports analytics and biostatistics ([see publication list](https://avesis.yildiz.edu.tr/ecene/yayinlar "publication list")).
+* I mostly give programming courses such as `Introduction to Python`, `Statistical Programming with R`, `Database` and `Web Programming` along with the `Sampling 1` course at the undergraduate level and `Data Manipulation and Visualisation` course at the graduate level. 
+* You can contact with me through [linkedin](https://www.linkedin.com/in/erhan-%C3%A7ene-03488960/)!!!
+* This is Mehet Samil
+
+

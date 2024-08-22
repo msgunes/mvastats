@@ -1,0 +1,64 @@
+
+.bg-primary{
+  background-color: #FFFFE3 !important;
+  color: #083081 !important;
+}
+
+
+
+a.text-light{
+  color: #62a1e6 !important;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+a, h1, h2, h3{
+  color: #083081 !important;
+}
+
+.btn-outline-primary {
+    color: #083081;
+    border-color: #083081;
+    background-color: transparent;
+}
+
+.sidebar.sidebar-book{
+  margin-left:5 !important;
+  padding-left:5 !important;
+  width:650px !important;
+}
+
+.book-part{
+  color: #083081 !important;
+  font-weight: 900 !important;
+}
+
+
+.eligible{
+  font-weight: 50% italic !important;
+  color: #62a1e6 !important;
+  font-size: 14px;
+}
+
+.hideshow{
+   color: #083081;
+   border-color: #083081;
+   background-color: transparent;
+   font-size: 12px;
+}
+
+
+span.tag{
+  color: red;
+  font-type:'Courier'
+}
+
+span.tag2{
+  color:green;
+  font-type:'Courier'
+}

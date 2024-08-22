@@ -1,1 +1,13 @@
+fig:unnamed-chunk-1
 about-the-author
+purpose-and-outcome-of-the-course
+the-three-musketeers-of-web-programming-html5-css-and-javascript
+possible-tools-that-can-be-used-to-code-html5-css-and-javascript
+some-helpful-websites-to-be-used-while-learning-html5-css-and-javascript
+weekly-draft-course-plan
+evaluation-of-the-class
+materials
+html
+what-is-html-for
+page-structure-of-html
+github-repo-rstudiobookdown-demo

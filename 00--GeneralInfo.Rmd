@@ -1,0 +1,69 @@
+# General Info for IST4130 {-}
+<span class = 'eligible'> General info for IST4130 - 2024-2025 Fall </span>
+
+## Purpose and Outcome of the course 
+
+Within the scope of the Web Programming course, all the information required to create a web page will be given at a basic level. A student who successfully completes this course will be able to:
+
+* Master basic HTML commands.
+* Shape web pages with basic CSS commands.
+* Have knowledge of basic Javascript commands.
+* Design a simple web page from scratch, place tables, images, videos, music on this web page, make visual arrangements and develop simple interactive applications on the created web page.
+
+## The Three Musketeers of Web Programming: HTML5, CSS and JAVASCRIPT
+
+Web pages and web applications are generally created by combining three components.
+
+```{r, out.width = "400px", echo=FALSE, fig.align= "center", fig.cap="HTML, CSS, and JS are three main components of a web page"}
+knitr::include_graphics("figures/00--GeneralInfo/html css js.png")
+```
+
+* **HTML5 (HyperText Markup Language):** It allows the content of web pages and web applications to be arranged within a certain logical framework. In this section, the designer deals with the text itself, section headings, shapes, lists, etc.
+* **CSS (Cascading style sheets):** This is the part that deals with the presentation, style and visuals of the web page. CSS allows the text prepared with HTML5 to be placed in a template. The parts that CSS deals with are font, font size, font color, page margins, etc.
+* **JS (JavaScript):** Allows a web page to interact with the user. Prevents the web page from being just a text. Allows a web application to be created from the web page.
+
+## Possible tools that can be used to code HTML5, CSS and JavaScript
+
+*	**JS Bin:** [Main Page](https://jsbin.com/ 'JS Bin Main Page')
+*	**CodePen:** [Main Page](https://codepen.io 'CodePen Main Page')
+*	**Visual Studio Code:** [Main Page](https://code.visualstudio.com/)
+*	**Notepad++:** [Main Page](https://notepad-plus-plus.org/)
+* Some web browser such as Chrome, Firefox, Opera, Safari etc.
+
+## Some helpful websites to be used while learning HTML5, CSS and JavaScript
+
+* **Mozilla Developer Network (MDN):** [Main Page](https://developer.mozilla.org/en-US/)
+* **W3 Schools** [Main Page](https://www.w3schools.com/)
+* **Codeacademy Documents** [Main Page](https://www.codecademy.com/resources/docs)
+
+## Weekly Draft Course Plan
+
+Draft means that dates and contents may change based on the conditions.
+
+| Week | Date                     | Content                                                                             |
+|------|--------------------------|-------------------------------------------------------------------------------------|
+| 1    | 23 February 2024 Friday  | Introduction to R and Basics                                                        |
+| 2    | 01 March 2024 Friday     | Data Types - Importing and Exporting Data -  <span style="color: blue;">Lab Session 1: Basics </span>                   |
+| 3    | 08 March 2024 Friday     | Control Statements, User Defined Functions -  <span style="color: blue;">Lab Session 2: Functions, Control Statements </span>  |
+| 4    | 15 March 2024 Friday     | Text Manipulation, stringR and Regular Expressions                                   |
+| 5    | 22 March 2024 Friday     |  <span style="color: blue;">Lab Session 3 - String Manipulation   </span>                                                |
+| 6    | 29 March 2024 Friday     | Data Manipulation with dplyr and Tidyr -  <span style="color: blue;">Lab Session 4: mammo </span>                        |
+| 7    | 05 April 2024 Friday     | Data Visualisation with ggplot                                                       |
+| 8    | 12 April 2024 Friday     | <span style="color: purple;">RAMADAN HOLIDAY </span>                                 |
+| 9    | 19 April 2024 Friday     |  <span style="color: blue;">Lab Session 5- dplyr ggplot: babynames </span>                                                |
+| 10   | 26 May 2024 Friday       |  <span style="color: blue;">Lab Session 6 - dplyr ggplot: FIFA and SLEDAI </span>                                         |
+| 11   | 03 May 2024 Friday       |  <span style="color: blue;">Lab Session 7 - tidyr </span>                                                                 |
+| 12   | 10 May 2024 Friday       |  <span style="color: blue;">Lab Session 8 - Case Studies on FIFA data </span>                                             |
+| 13   | 17 May 2024 Friday       | <span style="color: green;"> Project Presentations </span>                                         |
+| 14   | 24 June 2024 Friday      | <span style="color: green;"> Project Presentations </span>                                                               |
+
+## Evaluation of the class
+
+* There will be one take home exam (30%).
+* One project (25%).
+* Participation in the class (5%).
+* One final exam (40%).
+
+## Materials
+
+sxczxczxczcx

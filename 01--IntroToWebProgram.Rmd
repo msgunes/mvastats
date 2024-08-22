@@ -1,0 +1,36 @@
+# (PART) Week 1: Introduction to Web Programming {-}
+
+# Introduction to HTML{#html}
+
+This chapter will teach the basics of HTML.
+
+## What is HTML for?
+
+* HTML5 is the abbreviation of `Hyper Text Markup Language`.
+* It defines the structure of a web page.
+* It consists of a series of elements defined by specific commands. Each command expresses a different structure of the text.
+* These elements specify how the web browser should display the web page.
+* HTML elements are shown with labels called `tags`.
+* HTML tags allow the text to be separated into headings, paragraphs, tables, figures, web links, etc. and for the browser to perceive this separation.
+* Web pages do not display HTML tags on their pages, but they use them to create the page.
+
+## Page Structure of HTML
+
+Each HTML code consists of a heading defined by the <span class='tag'> &lt;head&gt; </span>  tag and a body defined by the <span class='tag'> &lt;body&gt; </span> tag.
+
+The <span class='tag'> &lt;head&gt; </span> tag contains header information about the HTML being created. Header information refers to information such as heading, character set, etc.
+
+The <span class='tag'> &lt;body&gt; </span> tag is the main text section containing other tags. This section includes section headings, lists, tables, images, website links, etc.
+
+A comment is given between <span class='tag2'> &lt;!&#8208;&#8208; comment comes here &#8208;&#8208;&gt; </span>.
+
+
+
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="First Pen" src="https://codepen.io/maneman/embed/gONeGgw?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/maneman/pen/gONeGgw">
+  First Pen</a> by ERHAN ÇENE (<a href="https://codepen.io/maneman">@maneman</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+
